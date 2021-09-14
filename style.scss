@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap&family=Mali");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(61, 59, 59);
+  height: 100vh;
+  text-align: center;
+  //   padding-top: 10%;
+
+  h1 {
+    color: red;
+    font-size: 5em;
+    font-family: "Shadows Into Light";
+  }
+
+  p {
+    color: whitesmoke;
+    font-family: "Mali";
+    font-size: 24px;
+  }
+
+  .phutos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+
+    img.twohearts {
+      height: 600px;
+    }
+
+    img.spotify {
+      height: 90px;
+      width: 90px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .phutos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap&family=Mali");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background-color: #3d3b3b;
+  height: 100vh;
+  text-align: center;
+}
+
+.container h1 {
+  color: red;
+  font-size: 5em;
+  font-family: "Shadows Into Light";
+}
+
+.container p {
+  color: whitesmoke;
+  font-family: "Mali";
+  font-size: 24px;
+}
+
+.container .phutos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.container .phutos img.twohearts {
+  height: 600px;
+}
+
+.container .phutos img.spotify {
+  height: 90px;
+  width: 90px;
+}
+
+@media (max-width: 580px) {
+  .phutos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
